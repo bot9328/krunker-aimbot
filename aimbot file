@@ -1,5 +1,4 @@
-# krunker-aimbot
-idk
+start
 from processor import Processor
 from display import Display
 from output import Mouse
@@ -28,7 +27,7 @@ class Aimbot():
             self.running = True
             self.display.start(self.path, self.processor)
         else:
-            # IMPLEMENT LATER
+            # IMPLEMENT NOW
             self.running = True
             self.display.start_bot(self.processor, self.feed)
 
